@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SCM Project UI</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f9; text-align: center; padding: 50px; }
+        h1 { color: #333; }
+        button { margin: 10px; padding: 10px 20px; border: none; background: #4CAF50; color: white; cursor: pointer; }
+        button:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <h1 th:text="${message}">Default Message</h1>
+    <button>Test Button 1</button>
+    <button>Test Button 2</button>
+</body>
+</html>
